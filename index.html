@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="/favicon.png">
+    <title>Access Blocked</title>
+    <style>
+        body{background: #a7071c; }
+        body > div {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            height: 98vh;
+        }
+        h1{
+        font-size: 3em;
+        margin-bottom: .25em;
+        }
+        h1,p {
+            color: #FFF;
+        }
+        .message {
+            font-size: 1.5em;
+            margin-top: .25em;
+        }
+        @media (max-width: 544px) {
+            body > div{
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+            h1{ font-size: 2em; }
+            .message{font-size: 1em;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Access to This Site is Blocked</h1>
+    <p class="message">You've tried to access a domain that has been restricted on this network.
+<br>For security and compliance reasons, certain websites are not accessible through this connection.</p>
+</body>
+    </div>
+</html>
+
